@@ -12,7 +12,7 @@ const TodoList = ({ handleComplete, todos }) => {
               {items.complete ? (
                ''
               ) : (
-                <button onClick={()=>handleComplete(index)}>complete</button>
+                <button onClick={()=>handleComplete(index)}>Complete</button>
               )}
             </li>
           );
